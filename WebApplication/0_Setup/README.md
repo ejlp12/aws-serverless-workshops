@@ -34,6 +34,8 @@ Take a moment now and setup your Cloud9 development environment.
 
 1. Go to the AWS Management Console, click **Services** then select **Cloud9**
    under Developer Tools.
+   
+   ![Cloud9 Console](https://raw.githubusercontent.com/ejlp12/aws-serverless-workshop-innovator-island/master/images/c9-step4.png)
 
 1. Click **Create environment**.
 
