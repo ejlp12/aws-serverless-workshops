@@ -144,6 +144,11 @@ For this module you will test the function that you built using the AWS Lambda c
       }
     }
     ```
+ 1. Verify that there is entry in the DynamoDB table.
+    - Go to the [Amazon DynamoDB Console][dynamodb-console]
+    - Choose **Tables**
+    - Click `Rides` from the table list
+    - Click **Items** tab. You should see ride data on the Item list.
 
 ### :star: Recap
 
