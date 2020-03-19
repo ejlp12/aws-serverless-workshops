@@ -48,7 +48,7 @@ Attach the managed policy called `AWSLambdaBasicExecutionRole` to this role to g
     
     **Note:** Selecting a role type automatically creates a trust policy for your role that allows AWS services to assume this role on your behalf. If you were creating this role using the CLI, AWS CloudFormation or another mechanism, you would specify a trust policy directly.
     
-1. Begin typing `AWSLambdaBasicExecutionRole` in the **Filter** text box and check the box next to that role.
+1. Begin typing `AWSLambdaBasicExecutionRole` in the **Filter policies** text box and check the box next to that role.
 1. Click **Next: Tags**. Add any tags that you wish.
 1. Click **Next: Review**.
 1. Enter `WildRydesLambda` for the **Role name**.
