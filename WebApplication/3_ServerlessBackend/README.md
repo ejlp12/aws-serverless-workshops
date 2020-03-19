@@ -45,7 +45,9 @@ Attach the managed policy called `AWSLambdaBasicExecutionRole` to this role to g
 1. Go to the [AWS IAM Console][iam-console]
 1. Select **Roles** in the left navigation bar and then choose **Create role**.
 1. Select **Lambda** for the role type from the **AWS service** group, then click **Next: Permissions**
+    
     **Note:** Selecting a role type automatically creates a trust policy for your role that allows AWS services to assume this role on your behalf. If you were creating this role using the CLI, AWS CloudFormation or another mechanism, you would specify a trust policy directly.
+    
 1. Begin typing `AWSLambdaBasicExecutionRole` in the **Filter** text box and check the box next to that role.
 1. Click **Next: Tags**. Add any tags that you wish.
 1. Click **Next: Review**.
